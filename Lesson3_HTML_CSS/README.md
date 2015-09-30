@@ -12,7 +12,7 @@
 
 # Today's Topics
 
-## HTML
+## [HTML](./html.md)
 
 * HTML Basics
 * Sections of a HTML page
@@ -26,7 +26,7 @@
   * `link`, `style`, `script`
 * Creating a HTML page
 
-## CSS
+## [CSS](./css.md)
 
 * Styling the HTML page
 * CSS selectors
