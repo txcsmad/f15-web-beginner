@@ -1,3 +1,12 @@
+function Cerebro(powers, mutant) {
+    mutant.powers.forEach(function(power) {
+        if(powers[power])
+            powers[powers].push(mutant.name);
+        else
+            powers[powers] = [mutant.name];
+    });
+}
+
 var mutantPowers = {};
 
 var mutants = [{ name: "Jean Grey", powers: ["telepathy"] },
@@ -17,6 +26,19 @@ console.log("");
 console.log("Starting powers:");
 console.log(JSON.stringify(mutantPowers));
 console.log("");
+
+var magneto = {
+    powers: {}
+};
+
+function Magneto(mutant) {
+    while(mutant.powers.length > 0) {
+        var power = mutant.powers.pop();
+
+        if(!magneto.powers[power])
+            magneto.powers[power] = true;
+    }
+}
 
 mutants.forEach(function(mutant) {
     console.log(Magneto(mutant));
