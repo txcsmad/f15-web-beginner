@@ -1,6 +1,6 @@
 # Lesson 6: Object-Oriented JS
 
-* Wed, 28 Oct 215
+* Wed, 28 Oct 2015
 * Nishanth Shanmugham – [@nishanths](https://github.com/nishanths) or [nishanths@utexas.edu](mailto:nishanths@utexas.edu)
 
 # Topics
